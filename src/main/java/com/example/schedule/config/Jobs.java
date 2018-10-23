@@ -16,7 +16,7 @@ public class Jobs {
     @Resource
     private WalksService walksService;
 
-    @Scheduled(cron = "0 36 0 * * ? ")
+    @Scheduled(cron = "0 42 14 * * ? ")
     public void updateTodayWalks() throws Exception {
         walksService.updateWalks();
     }
