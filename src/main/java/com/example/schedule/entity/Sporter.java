@@ -24,7 +24,6 @@ public class Sporter {
     @JoinColumn(name = "sporter_id")
     private List<Walks> walksList = new ArrayList<>();
 
-
     public Sporter() {
 
     }
